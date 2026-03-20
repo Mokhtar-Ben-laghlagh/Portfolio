@@ -95,10 +95,16 @@ mon-portfolio/
 
 ---
 
+## lien de mon portfolio
+```
+https://portfolio-mokhtar-v2.vercel.app/
+```
 
 ## Video Démonstrative
 
-https://github.com/user-attachments/assets/6b46e22c-3c16-4104-82ee-31acd31a78a2
+https://github.com/user-attachments/assets/373e41cb-20b2-44d1-b6c2-487938289c0b
+
+
 ## 📄 Licence
 
 Projet personnel — © 2026 Mokhtar Ben Laghlagh
