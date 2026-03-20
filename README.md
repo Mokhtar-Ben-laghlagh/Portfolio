@@ -22,53 +22,7 @@ npm run preview
 
 ---
 
-## 📁 Structure du projet
 
-```
-mon-portfolio/
-├── public/
-│   ├── certs/              ← Images des badges certifications (.webp)
-│   └── favicon.svg
-├── src/
-│   ├── app/
-│   │   ├── router.tsx      ← Toutes les routes
-│   │   └── RootLayout.tsx  ← Header + Footer global
-│   ├── components/
-│   │   ├── CertificationCard.tsx
-│   │   └── ThemeToggle.tsx
-│   ├── data/               ← ✏️ TES DONNÉES ICI
-│   │   ├── profile.ts
-│   │   ├── projects.ts
-│   │   ├── experience.ts
-│   │   ├── education.ts
-│   │   └── certifications.ts
-│   ├── pages/
-│   │   ├── Home.tsx
-│   │   ├── Projects.tsx
-│   │   ├── Experience.tsx
-│   │   ├── Education.tsx
-│   │   ├── Certifications.tsx
-│   │   └── Contact.tsx
-│   ├── index.css
-│   └── main.tsx
-├── index.html
-├── tailwind.config.js
-├── tsconfig.app.json
-├── vite.config.ts
-└── vercel.json
-```
-
-
-3. Va sur [vercel.com](https://vercel.com) → **New Project** → importer le repo
-4. Paramètres :
-   - **Framework** : Vite (détecté automatiquement)
-   - **Build Command** : `npm run build`
-   - **Output Directory** : `dist`
-5. Clique **Deploy** → ton site est en ligne 🎉
-
-> Le fichier `vercel.json` gère déjà le fallback SPA (pas de 404 sur les routes).
-
----
 
 ## 🛠️ Scripts disponibles
 
